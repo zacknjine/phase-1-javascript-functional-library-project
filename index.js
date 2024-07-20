@@ -69,7 +69,7 @@ const mySize = function (collection) {
   return newCollection.length;
 };
 
-// Array Functions
+
 
 const myFirst = function (arr, stop = false) {
   return stop ? arr.slice(0, stop) : arr[0];
